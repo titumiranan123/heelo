@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: normal;
+  src: url('./assets/font/glancyr-glancyr-regular-400.ttf');
+}
+
+@font-face {
+  font-family: semibold;
+  src: url('./assets/font/glancyr-glancyr-semibold-600.ttf');
+}
+
+@font-face {
+  font-family: bold;
+  src: url('./assets/font/glancyr-glancyr-bold-700.ttf');
+}
+
+@font-face {
+  font-family: regulardin;
+  src: url('./assets/font/DIN-2014_Regular.otf');
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bold {
+  font-family: bold;
+}
+
+.semibold {
+  font-family: semibold;
+}
+
+.normal {
+  font-family: normal;
+}
+
+.regular {
+  font-family: regulardin;
+}
+
+.optioncard:hover {
+  background: linear-gradient(180deg, #FFFFFF -7.81%, #25AAE1 146.35%);
+
+}
+
+.bg {
+  background: linear-gradient(180deg, #FFFFFF -7.81%, #25AAE1 146.35%);
+}
+
+.shadow {
+  box-shadow: 0px 4px 20px 0px #FFFFFF29;
+}
+
+/* swiper custom slider
+ */
+
+
+
+
+.swiper {
+  height: 680px !important;
+  width: 487px !important;
+}
+
+/* Default for larger screens */
+
+
+/* Adjust for tablets */
+button {
+  cursor: pointer !important;
+}
+
+/* Adjust for mobile devices */
+@media (max-width: 640px) {
+  .swiper {
+    height: 500px !important;
+    width: 281px !important;
+
+  }
+}
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  /* Color of the icon */
+  font-size: 20px;
+  /* Size of the icon */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev-custom {
+  left: 425px;
+  rotate: 90deg;
+  /* Position the previous button */
+}
+
+.swiper-button-next-custom {
+  right: -68px;
+  /* Position the next button */
+  rotate: 90deg;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 640px) {
+  .swiper-button-prev-custom {
+    left: 256px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
+
+  .swiper-button-next-custom {
+    right: 0px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
+}

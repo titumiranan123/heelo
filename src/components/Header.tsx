@@ -34,7 +34,7 @@ const Header: React.FC = () => {
                         {isImageVisible && (
                             <>
                                 <img src={img} className="lg:w-[993px] lg:h-[562px]" />
-                                <div className="absolute  lg:top-[38%] md:top-[30%] top-[35%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[39%] lg:left-[44%] left-[44%]">
+                                <div className="absolute  lg:top-[38%] md:top-[30%] top-[35%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[39%] lg:left-[46%] left-[44%]">
                                     <Headerpulse
 
                                         onHideImage={handleHideImage}

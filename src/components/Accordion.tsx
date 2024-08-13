@@ -13,7 +13,7 @@ const Accordion = () => {
                     <h1 className="lg:text-[48px] md:text-[44px] text-[26px] font-bold leading-[30px] lg:leading-[48px]">
                         Have Questions?
                     </h1>
-                    <p className="md:text-[20px] text-[16px] leading-[20px] md:leading-[25.6px] md:mt-2 ">
+                    <p className="md:text-[20px] text-[16px] leading-[20px] md:leading-[25.6px] md:mt-2 mt-2">
                         Have more questions? Book a free strategy call .
                     </p>
                     <button className="bg-[#25AAE1] py-4 px-6 text-white rounded-[16px] mt-4 lg:mt-[30px] md:text-[20px] text-[14px]">

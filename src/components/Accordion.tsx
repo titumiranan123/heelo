@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import AccordianCard from "./AccordianCard";
 
 const Accordion = () => {
     return (
-        <div className="text-[#E4E8F7] lg:mt-0 lg:px-0 mt-[68px] md:mt-[80px] max-w-[1240px] mx-auto px-4 md:px-4">
+        <div className="text-[#E4E8F7] lg:mt-0 lg:px-0 mt-[38px] md:mt-[80px] max-w-[1240px] mx-auto px-4 md:px-4">
             <div className="lg:w-1/2 mx-auto mb-[84px] text-center">
                 <p className="uppercase lg:text-[56px] md:text-[56px] text-[30px] font-bold md:leading-[56px] tracking-[0.8px]">
                     Frequently Asked Questions (FAQ)
@@ -13,14 +14,14 @@ const Accordion = () => {
                     <h1 className="lg:text-[48px] md:text-[44px] text-[26px] font-bold leading-[30px] lg:leading-[48px]">
                         Have Questions?
                     </h1>
-                    <p className="md:text-[20px] text-[16px] leading-[20px] md:leading-[25.6px] md:mt-2 mt-2">
+                    <p className="md:text-[20px] text-[16px] leading-[20px] md:leading-[25.6px] md:mt-5 mt-2 mb-10 md:mb-10 ">
                         Have more questions? Book a free strategy call .
                     </p>
-                    <button className="bg-[#25AAE1] py-4 px-6 text-white rounded-[16px] mt-4 lg:mt-[30px] md:text-[20px] text-[14px]">
+                    <Link to={'https://calendly.com/imonofficial2/30min?month=2024-07'} target="_blank" className="bg-[#25AAE1] py-4 px-6 text-white rounded-[16px] mt-4 lg:mt-[30px] md:text-[20px] text-[14px]">
                         Book a Call
-                    </button>
+                    </Link>
                 </div>
-                <div className="flex justify-center lg:items-center flex-col lg:-mt-8 mt-6 md:gap-0 gap-4">
+                <div className="flex justify-center lg:items-center flex-col lg:-mt-8 mt-6 md:gap-0 lg:gap-4">
                     <AccordianCard
                         title="Q: Can you edit long videos into shorts or reels?"
                         description="A: Yes, I do! I'm an expert in all kinds of video editing services, including podcasts, talking heads, promos, cinematic videos, music videos, slideshows, and more."

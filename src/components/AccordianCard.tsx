@@ -25,7 +25,7 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, description }) => {
                     onClick={toggleAccordion}
                     className="flex justify-between w-full "
                 >
-                    <span className="tracking-[1.5px] semibold md:w-[564px] md:text-[24px] text-left leading-[22px] text-[16px]">
+                    <span className="tracking-[1.5px] semibold md:w-[564px] md:text-[24px] text-left leading-[20px] md:leading-[28px] text-[16px]">
                         {title}
                     </span>
                     <div className="w-10 relative">

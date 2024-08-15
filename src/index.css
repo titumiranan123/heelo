@@ -14,10 +14,7 @@
   src: url('./assets/font/glancyr-glancyr-semibold-600.ttf');
 }
 
-@font-face {
-  font-family: bold;
-  src: url('./assets/font/glancyr-glancyr-bold-700.ttf');
-}
+
 
 @font-face {
   font-family: regulardin;
@@ -33,11 +30,13 @@
 }
 
 .bold {
-  font-family: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .semibold {
-  font-family: semibold;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .normal {
@@ -50,7 +49,6 @@
 
 .optioncard:hover {
   background: linear-gradient(180deg, #FFFFFF -7.81%, #25AAE1 146.35%);
-
 }
 
 .bg {
@@ -83,9 +81,9 @@ button {
 /* Adjust for mobile devices */
 @media (max-width: 640px) {
   .swiper {
-    height: 500px !important;
-    width: 281px !important;
-
+    height: 540px !important;
+    width: 300px !important;
+ 
   }
 }
 

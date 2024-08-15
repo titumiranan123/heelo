@@ -5,16 +5,16 @@ const Pricing: React.FC = () => {
     return (
         <div className='max-w-[1240px] mx-auto px-4  lg:mt-0 md:mt-32 mt-16'>
             <div>
-                <h1 className='lg:text-[56px] md:text-[36px] text-[30px] bold text-center  text-white'>Pricing Plans</h1>
+                <h1 className='lg:text-[56px] md:text-[56px] text-[30px] bold text-center uppercase text-white bold'>Pricing Plans</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 mt-[80px] lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 mt-[80px] lg:grid-cols-3 lg:gap-5 gap-10'>
                 <div className='optioncard  bg-[#0E141E] md:w-[386px] w-[98%] group h-[744px] transition-colors duration-200  rounded-[24px] group'>
                     <div className='  flex justify-center items-center'>
                         <p className='bg-[#25AAE1] hover: w-[162px] h-[48px] flex justify-center items-center rounded-br-[8px] rounded-bl-[8px] group-hover:bg-[#0E141E] text-white normal text-[20px]'>Basic</p>
                     </div>
                     <div className='group-hover:text-[#03070D] text-white'>
                         <h1 className='bold text-[48px]    text-center mt-9  leading-[60px]'>$30</h1>
-                        <p className=' normal text-center leading-[25.6px] ms-4 -mt-2 text-[20px]'>Up To 60 Seconds</p>
+                        <p className=' normal text-center leading-[25.6px] ms-4 mt-1 text-[20px]'>Up To 60 Seconds</p>
                     </div>
                     <div className='mt-[44px] ps-[36px]  flex flex-col gap-[14px] '>
                         <div className='flex gap-2'>
@@ -71,7 +71,7 @@ const Pricing: React.FC = () => {
                     </div>
                     <div className='group-hover:text-[#03070D] text-white'>
                         <h1 className='bold text-[48px]    text-center mt-9  leading-[60px]'>$45</h1>
-                        <p className=' normal text-center leading-[25.6px] ms-4 -mt-2 text-[20px]'>Up To 60 Seconds</p>
+                        <p className=' normal text-center leading-[25.6px] ms-4 mt-1 text-[20px]'>Up To 60 Seconds</p>
                     </div>
                     <div className='mt-[44px] ps-[36px] flex flex-col gap-[14px] group-hover:text-[#03070D] text-white'>
                         <div className='flex gap-2'>
@@ -123,11 +123,11 @@ const Pricing: React.FC = () => {
                     </div>
                     <div className='group-hover:text-[#03070D] text-white'>
                         <h1 className='bold text-[48px]    text-center mt-9  leading-[60px]'>$70</h1>
-                        <p className=' normal text-center leading-[25.6px] ms-4 -mt-2 text-[20px]'>Up To 60 Seconds</p>
+                        <p className=' normal text-center leading-[25.6px] ms-4 mt-1 text-[20px]'>Up To 60 Seconds</p>
                     </div>
                     <div>
 
-                        <p className='group-hover:text-[#03070D] text-white mt-[20px] md:text-[20px] md:leading-[25.3px] text-[14px] leading-[18.3px] px-4'>VIP services (Advance Quality like Iman gadzi, ali adbaal, alex hormozi)</p>
+                        <p className='group-hover:text-[#03070D] text-white mt-[20px] regular leading-[20.6px] text-[20px] px-4'>VIP services (Advance Quality like Iman gadzi, ali adbaal, alex hormozi)</p>
                     </div>
                     <div className='mt-[44px] ps-[36px] flex flex-col gap-[14px] group-hover:text-[#03070D] text-white'>
                         <div className='flex gap-2'>

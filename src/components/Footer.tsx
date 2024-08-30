@@ -25,33 +25,7 @@ const Footer: React.FC = () => {
             </Link>
           </div>
         </div>
-        <div className="normal text-white flex justify-between items-center md:text-[18px] leading-[25.6px] text-center text-[14px] mt-[120px]">
-          <div className="flex gap-4">
-            <Link
-              className="hover:underline"
-              to={"https://montagemotion.com/privacy-policy"}
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              className="hover:underline"
-              to={"https://montagemotion.com/terms-and-conditions"}
-            >
-              Terms & Conditions
-            </Link>
-            {/* <Link className="hover:underline" to={"pricing-plans"}> */}
-            {/* <Link className="hover:underline" to={"/"}>
-              Pricing Plan
-            </Link> */}
-            <Link
-              className="hover:underline"
-              to={"https://montagemotion.com/refund-policy"}
-            >
-              Refund Policy
-            </Link>
-          </div>
-          <p>&copy; 2024 Motion Montage. All Rights Reserved.</p>
-        </div>
+       
       </div>
     );
 };

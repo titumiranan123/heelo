@@ -37,7 +37,7 @@ const Successstroy: React.FC = () => {
                 <h1 className="semibold md:text-[24px] text-[20px] text-[#D9D9D9]">
                   Julian De Graaf
                 </h1>
-                <p className="regular font-[600] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
+                <p className="regular font-[500] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
                   CEO , Elite Rentals
                 </p>
               </div>
@@ -64,7 +64,7 @@ const Successstroy: React.FC = () => {
                 <h1 className="semibold md:text-[24px] text-[20px] text-[#D9D9D9]">
                   Cia E
                 </h1>
-                <p className="regular font-[600] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
+                <p className="regular font-[500] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
                   Trauma Recovery & Relationship Coach
                 </p>
               </div>
@@ -91,7 +91,7 @@ const Successstroy: React.FC = () => {
                 <h1 className="semibold md:text-[24px] text-[20px] text-[#D9D9D9]">
                   Marc Palombo
                 </h1>
-                <p className="regular font-[600] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
+                <p className="regular font-[500] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
                   Actor, The Talent Group
                 </p>
               </div>

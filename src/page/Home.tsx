@@ -2,12 +2,13 @@ import React from 'react';
 
 import Pricing from '../components/Pricing';
 import Accordion from '../components/Accordion';
-// import Successstroy from '../components/Successstroy';
+
 import Bestoption from '../components/Bestoption';
 import Header from '../components/Header';
 import State from '../components/State';
 import Shortvideo from '../components/Shortvideo';
 import Footer from '../components/Footer';
+import Successstroy from '../components/Successstroy';
 
 const Home: React.FC = () => {
     return (
@@ -17,7 +18,7 @@ const Home: React.FC = () => {
             <Shortvideo />
             <State />
             <Bestoption />
-            {/* <Successstroy /> */}
+            <Successstroy />
             <Accordion />
             <Pricing />
             <Footer />

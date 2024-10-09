@@ -10,7 +10,7 @@ const Pricing: React.FC = () => {
           Pricing Plans
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-[80px] lg:grid-cols-3 lg:gap-5 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-1 mt-[80px] lg:grid-cols-3 lg:gap-5 gap-10">
         <div className="optioncard  bg-[#0E141E] md:w-[386px] w-[98%] group h-[744px] transition-colors duration-200  rounded-[24px] group">
           <div className="  flex justify-center items-center">
             <p className="bg-[#25AAE1] hover: w-[162px] h-[48px] flex justify-center items-center rounded-br-[8px] rounded-bl-[8px] group-hover:bg-[#0E141E] text-white normal text-[20px]">

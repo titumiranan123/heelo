@@ -9,6 +9,10 @@ import { Navigation, Mousewheel } from 'swiper/modules';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import Headerpulse from './Headerpuls';
 import ReactPlayer from 'react-player';
+import img10 from './../assets/thumbnail/short10.jpg'
+import img9 from './../assets/thumbnail/short9.jpg'
+import img8 from './../assets/thumbnail/short8.jpg'
+import img7 from './../assets/thumbnail/short7.jpg'
 import img6 from './../assets/thumbnail/short6.jpg'
 import img5 from './../assets/thumbnail/short5.jpg'
 import img4 from './../assets/thumbnail/short4.jpg'
@@ -18,36 +22,56 @@ import img1 from './../assets/thumbnail/short1.jpg'
 import { Link } from 'react-router-dom';
 
 const videoData = [
-    {
-        id: 1,
-        thumbnail: img1,
-        videoUrl: 'https://youtube.com/shorts/tY0L8YTBAPo?feature=share',
-    },
-    {
-        id: 2,
-        thumbnail: img2,
-        videoUrl: 'https://youtube.com/shorts/NWugQsITE_c?feature=share',
-    },
-    {
-        id: 3,
-        thumbnail: img3,
-        videoUrl: 'https://youtube.com/shorts/1bJwNnW9h3w?feature=share',
-    },
-    {
-        id: 4,
-        thumbnail: img4,
-        videoUrl: 'https://youtu.be/o_EKd07ramE',
-    },
-    {
-        id: 5,
-        thumbnail: img5,
-        videoUrl: 'https://youtu.be/JBPiW8MNn5o',
-    },
-    {
-        id: 6,
-        thumbnail: img6,
-        videoUrl: 'https://youtu.be/JLiB1fOLeNc',
-    },
+  {
+    id: 1,
+    thumbnail: img1,
+    videoUrl: "https://youtube.com/shorts/tY0L8YTBAPo?feature=share",
+  },
+  {
+    id: 2,
+    thumbnail: img2,
+    videoUrl: "https://youtube.com/shorts/NWugQsITE_c?feature=share",
+  },
+  {
+    id: 3,
+    thumbnail: img3,
+    videoUrl: "https://youtube.com/shorts/1bJwNnW9h3w?feature=share",
+  },
+  {
+    id: 4,
+    thumbnail: img4,
+    videoUrl: "https://youtu.be/o_EKd07ramE",
+  },
+  {
+    id: 5,
+    thumbnail: img5,
+    videoUrl: "https://youtu.be/JBPiW8MNn5o",
+  },
+  {
+    id: 6,
+    thumbnail: img6,
+    videoUrl: "https://youtu.be/JLiB1fOLeNc",
+  },
+  {
+    id: 7,
+    thumbnail: img7,
+    videoUrl: "https://youtube.com/shorts/Vc6_XDbA7zc?feature=share",
+  },
+  {
+    id: 8,
+    thumbnail: img8,
+    videoUrl: "https://youtube.com/shorts/oBg1GYDLEDY?feature=share",
+  },
+  {
+    id: 9,
+    thumbnail: img9,
+    videoUrl: "https://youtube.com/shorts/RM5uytH0EKQ?feature=share",
+  },
+  {
+    id: 10,
+    thumbnail: img10,
+    videoUrl: "https://www.youtube.com/shorts/CiFcFxOnp7U",
+  },
 ];
 
 const Shortvideo: React.FC = () => {
@@ -94,7 +118,7 @@ const Shortvideo: React.FC = () => {
                                         !isImageVisible &&
                                         <div onClick={() => setIsImageVisible(!isImageVisible)}>
                                             <img className='md:w-[387px] md:h-[680.23px]  w-[300px] h-[540.23px] ' src={video.thumbnail} alt={`Slide ${index + 1}`} />
-                                            <div className="absolute lg:top-[48.5%] md:top-[30%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
+                                            <div className="absolute lg:top-[48.5%] md:top-[47%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                                 <Headerpulse onHideImage={handleHideImage} />
                                             </div>
                                         </div>

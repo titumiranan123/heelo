@@ -62,12 +62,12 @@ const Header: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="md:mt-[102px] mt-[80px] ">
-            <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40 bg-black lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] mx-auto  relative ">
+          <div className="md:mt-[102px] mt-[80px] lg:ms-0 md:ms-8 mx-auto">
+            <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40 bg-black lg:w-[993px]  lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] mx-auto  relative  ">
               {isImageVisible && (
                 <>
                   <img src={img} className="lg:w-[993px] lg:h-[562px]" />
-                  <div className="absolute  lg:top-[38%] md:top-[30%] top-[35%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[39%] lg:left-[46%] left-[44%]">
+                  <div className="absolute  lg:top-[38%] md:top-[38%] top-[35%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[44%] lg:left-[46%] left-[44%]">
                     <Headerpulse onHideImage={handleHideImage} />
                   </div>
                 </>

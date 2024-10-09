@@ -62,7 +62,7 @@ const Header: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="md:mt-[102px] mt-[80px] lg:ms-0 md:ms-8 mx-auto">
+          <div className="md:mt-[102px] ">
             <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40 bg-black lg:w-[993px]  lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] mx-auto  relative  ">
               {isImageVisible && (
                 <>

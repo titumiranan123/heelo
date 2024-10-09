@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import julian from "./../assets/testimonial/julian.png";
 import cia from "./../assets/testimonial/cia.png";
 import marc from "./../assets/testimonial/marc.png";
+import breanna from "./../assets/testimonial/breanna.png";
 import { Navigation, Pagination } from "swiper/modules";
 
 const Successstory: React.FC = () => {
@@ -34,9 +35,9 @@ const Successstory: React.FC = () => {
     },
     {
       id: 4,
-      name: "Marc Palombo",
-      role: "Actor, The Talent Group",
-      image: marc,
+      name: "Breanna Danielle MS",
+      role: "Inner Health Coach",
+      image: breanna,
       videoUrl: "https://vimeo.com/1015207826?share=copy",
     },
   ];

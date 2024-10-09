@@ -32,6 +32,13 @@ const Successstory: React.FC = () => {
       image: marc,
       videoUrl: "https://vimeo.com/1007476337?share=copy",
     },
+    {
+      id: 4,
+      name: "Marc Palombo",
+      role: "Actor, The Talent Group",
+      image: marc,
+      videoUrl: "https://vimeo.com/1015207826?share=copy",
+    },
   ];
 
   return (

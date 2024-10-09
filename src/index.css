@@ -62,17 +62,35 @@
 /* swiper custom slider
  */
 
-
-
+/* Adjust for tablets */
+button {
+  cursor: pointer !important;
+}
 
 .swiper {
   height: 680px !important;
   width: 487px !important;
 }
+
+:root {
+    --swiper-navigation-size: 32px !important;
+}
 .swipers  {
   height: 818px !important;
 width: 100% !important;
 margin: 0 auto;
+  }
+  .swipers .swiper-button-prev{
+    background: white !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .swipers .swiper-button-next{
+    background: white !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
   }
 .swipers .swiper-pagination .swiper-pagination-bullet{
 background: white;
@@ -86,10 +104,7 @@ width: 20px !important;
 /* Default for larger screens */
 
 
-/* Adjust for tablets */
-button {
-  cursor: pointer !important;
-}
+
 
 /* Adjust for mobile devices */
 @media (max-width: 640px) {
